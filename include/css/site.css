@@ -48,9 +48,9 @@ nav li {
  
 footer { 
   font-weight : bold; 
-  background : #a9c6cb; 
+  background : #ffffff; /*a9c6cb*/
   text-align : center; 
-  padding : 0px;
+  padding : 10px;
 } 
  
 div.bienvenue { 

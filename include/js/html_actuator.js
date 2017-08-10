@@ -203,7 +203,7 @@ HTMLActuator.prototype.message = function (won)
   var type    = won ? "game-won" : "game-over";
 
   // message à afficher
-  var message = won ? "Vous avez gagné !" : "Game over!";
+  var message = won ? "You won !" : "Game over!";
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;

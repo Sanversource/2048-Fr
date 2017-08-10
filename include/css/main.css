@@ -3,12 +3,15 @@ html, body {
   margin: 0;
   padding: 0;
   background: #faf8ef;
+  background-image:url('http://i.imgur.com/FbOmHab.png');
+  background-repeat:no-repeat;
+  background-position: top center;
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
 body {
-  margin: 80px 0; }
+  margin: 0px 0; } /*80px 0*/
 
 .heading:after {
   content: "";
@@ -16,6 +19,7 @@ body {
   clear: both; }
 
 h1.title {
+  color: #ffffff;
   font-size: 80px;
   font-weight: bold;
   margin: 0;
@@ -117,7 +121,7 @@ hr {
 
 .container {
   width: 500px;
-  margin: 0 auto; }
+  margin: 0 auto;}
 
 @-webkit-keyframes fade-in {
   0% {
@@ -559,6 +563,7 @@ hr {
 
 .game-intro {
   float: left;
+  color: #ffffff;
   font-size: 17px;
   line-height: 25px;
   margin-bottom: 0; }
@@ -637,6 +642,7 @@ hr {
     box-sizing: border-box; }
     .game-container .game-message {
       display: none;
+      color: #000000;
       position: absolute;
       top: 0;
       right: 0;
@@ -674,11 +680,11 @@ hr {
           display: none; }
       .game-container .game-message.game-won {
         background: rgba(237, 194, 46, 0.5);
-        color: #f9f6f2; }
+        color: #f9f6f2; } 
         .game-container .game-message.game-won a.keep-playing-button {
           display: inline-block; }
       .game-container .game-message.game-won, .game-container .game-message.game-over {
-        display: block; }
+        display: block;}
 
   .grid-container {
     position: absolute;

@@ -452,7 +452,7 @@ hr {
     height: 107px;
     line-height: 185px; 
     background: #3c3a32;
-    /*background: url('../tile-sets/sanvers/2.gif');*/
+    background: url('../tile-sets/sanvers/super.gif');
      }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
@@ -642,7 +642,6 @@ hr {
     box-sizing: border-box; }
     .game-container .game-message {
       display: none;
-      color: #000000;
       position: absolute;
       top: 0;
       right: 0;

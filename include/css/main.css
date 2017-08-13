@@ -52,7 +52,7 @@ h1.title {
     opacity: 0; } }
 .scores-container {
   float: right;
-  text-align: right; }
+   }
 
 .score-container, .best-container {
   position: relative;
